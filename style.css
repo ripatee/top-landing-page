@@ -10,7 +10,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 16px;
-    width: 800px; /* Hack just to get header look better atm */
 }
 
 .header .logo {
@@ -29,6 +28,28 @@ body {
     background-color: #1F2937;;
 }
 
+.information-container {
+    text-align: center;
+}
+
+.info-image-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    border: 4px solid #3882F6;
+}
+
+.info-text {
+    width: 150px;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -38,6 +59,27 @@ ul {
     align-items: center;
   }
   
-  a {
+a {
     text-decoration: none;
-  }
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 24px;
+}
