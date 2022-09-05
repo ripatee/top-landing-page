@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    width: 800px; /* Hack just to get header look better atm */
+}
+
+.header .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-link {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header,
+.introduction-container {
+    background-color: #1F2937;;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
