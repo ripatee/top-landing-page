@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 0;
     font-family: sans-serif;
 }
@@ -9,8 +8,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
-    width: 1200px;
+    padding: 16px 100px;
 }
 
 .header .logo {
@@ -19,7 +17,7 @@ body {
     font-weight: bold;
 }
 
-.header-link {
+.header a{
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -29,8 +27,10 @@ body {
     background-color: #1F2937;;
 }
 
-.introduction-container .image {
-    width: 400px;
+.introduction-container img {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
 }
 
 .introduction-container {
@@ -45,12 +45,12 @@ body {
     font-size: 18px;
 }
 
-.information-container {
+.information{
     text-align: center;
     margin: 100px;
 }
 
-.info-image-container {
+.information .container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -75,7 +75,7 @@ img,
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
-    padding: 50px;
+    padding: 50px 100px;
 }
 
 .quoted-from {
@@ -88,12 +88,13 @@ img,
 .sign-up-bar {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     gap: 100px;
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 10px;
+    border-radius: 10px; 
     padding: 10px 100px;
-    margin: 50px;
+    margin: 50px 100px;
 }
 
 ul {
@@ -113,6 +114,7 @@ h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 
 h2 {
@@ -132,10 +134,10 @@ footer {
     background-color: #1F2937;
     color: #E5E7EB;
     padding: 24px;
-    width: 200vh;
 }
 
 button {
+    flex: 0 0 auto;
     background-color: #3882F6;
     color: white;
     font-weight: bold;
